@@ -1,0 +1,301 @@
+{
+    "object": "list",
+    "data": [
+        {
+            "id": "in_1Rbgf42N3oSWUe5UDnMqojyY",
+            "object": "invoice",
+            "account_country": "US",
+            "account_name": "Unlimited Health Collective",
+            "account_tax_ids": null,
+            "amount_due": 25000,
+            "amount_overpaid": 0,
+            "amount_paid": 25000,
+            "amount_remaining": 0,
+            "amount_shipping": 0,
+            "application": null,
+            "attempt_count": 1,
+            "attempted": true,
+            "auto_advance": false,
+            "automatic_tax": {
+                "disabled_reason": null,
+                "enabled": false,
+                "liability": null,
+                "provider": null,
+                "status": null
+            },
+            "automatically_finalizes_at": null,
+            "billing_reason": "subscription_create",
+            "collection_method": "charge_automatically",
+            "created": 1750332582,
+            "currency": "usd",
+            "custom_fields": null,
+            "customer": "cus_SWffOeuPwseQmv",
+            "customer_address": null,
+            "customer_email": "ammarkhalidwarraich@gmail.com",
+            "customer_name": "Ammar Khalid",
+            "customer_phone": null,
+            "customer_shipping": null,
+            "customer_tax_exempt": "none",
+            "customer_tax_ids": [],
+            "default_payment_method": null,
+            "default_source": null,
+            "default_tax_rates": [],
+            "description": null,
+            "discounts": [],
+            "due_date": null,
+            "effective_at": 1750332582,
+            "ending_balance": 0,
+            "footer": null,
+            "from_invoice": null,
+            "hosted_invoice_url": "https://invoice.stripe.com/i/acct_1RHpCa2N3oSWUe5U/test_YWNjdF8xUkhwQ2EyTjNvU1dVZTVVLF9TV2s5M3Rib2taaGdqdEhUajVqQ2tWOW8yTGtVOWVILDE0MDg3MzQxOQ0200Zo6GCBGy?s=ap",
+            "invoice_pdf": "https://pay.stripe.com/invoice/acct_1RHpCa2N3oSWUe5U/test_YWNjdF8xUkhwQ2EyTjNvU1dVZTVVLF9TV2s5M3Rib2taaGdqdEhUajVqQ2tWOW8yTGtVOWVILDE0MDg3MzQxOQ0200Zo6GCBGy/pdf?s=ap",
+            "issuer": {
+                "type": "self"
+            },
+            "last_finalization_error": null,
+            "latest_revision": null,
+            "lines": {
+                "object": "list",
+                "data": [
+                    {
+                        "id": "il_1Rbgf42N3oSWUe5USPneaGEA",
+                        "object": "line_item",
+                        "amount": 25000,
+                        "currency": "usd",
+                        "description": "1 × Personal Account Membership (at $250.00 / year)",
+                        "discount_amounts": [],
+                        "discountable": true,
+                        "discounts": [],
+                        "invoice": "in_1Rbgf42N3oSWUe5UDnMqojyY",
+                        "livemode": false,
+                        "metadata": {},
+                        "parent": {
+                            "invoice_item_details": null,
+                            "subscription_item_details": {
+                                "invoice_item": null,
+                                "proration": false,
+                                "proration_details": {
+                                    "credited_items": null
+                                },
+                                "subscription": "sub_1Rbgf42N3oSWUe5UE8t2rYtz",
+                                "subscription_item": "si_SWk9SWwF1jYb4n"
+                            },
+                            "type": "subscription_item_details"
+                        },
+                        "period": {
+                            "end": 1781868582,
+                            "start": 1750332582
+                        },
+                        "pretax_credit_amounts": [],
+                        "pricing": {
+                            "price_details": {
+                                "price": "price_1RaYE72N3oSWUe5UUEWcI1OG",
+                                "product": "prod_SVZLiaXkNkqBk8"
+                            },
+                            "type": "price_details",
+                            "unit_amount_decimal": "25000"
+                        },
+                        "quantity": 1,
+                        "taxes": []
+                    }
+                ],
+                "has_more": false,
+                "total_count": 1,
+                "url": "/v1/invoices/in_1Rbgf42N3oSWUe5UDnMqojyY/lines"
+            },
+            "livemode": false,
+            "metadata": {},
+            "next_payment_attempt": null,
+            "number": "AE53S2GB-0002",
+            "on_behalf_of": null,
+            "parent": {
+                "quote_details": null,
+                "subscription_details": {
+                    "metadata": {},
+                    "subscription": "sub_1Rbgf42N3oSWUe5UE8t2rYtz"
+                },
+                "type": "subscription_details"
+            },
+            "payment_settings": {
+                "default_mandate": null,
+                "payment_method_options": null,
+                "payment_method_types": null
+            },
+            "period_end": 1750332582,
+            "period_start": 1750332582,
+            "post_payment_credit_notes_amount": 0,
+            "pre_payment_credit_notes_amount": 0,
+            "receipt_number": null,
+            "rendering": null,
+            "shipping_cost": null,
+            "shipping_details": null,
+            "starting_balance": 0,
+            "statement_descriptor": null,
+            "status": "paid",
+            "status_transitions": {
+                "finalized_at": 1750332582,
+                "marked_uncollectible_at": null,
+                "paid_at": 1750332582,
+                "voided_at": null
+            },
+            "subtotal": 25000,
+            "subtotal_excluding_tax": 25000,
+            "test_clock": null,
+            "total": 25000,
+            "total_discount_amounts": [],
+            "total_excluding_tax": 25000,
+            "total_pretax_credit_amounts": [],
+            "total_taxes": [],
+            "webhooks_delivered_at": 1750332582
+        },
+        {
+            "id": "in_1Rbg1R2N3oSWUe5UkPEDSLd9",
+            "object": "invoice",
+            "account_country": "US",
+            "account_name": "Unlimited Health Collective",
+            "account_tax_ids": null,
+            "amount_due": 2500,
+            "amount_overpaid": 0,
+            "amount_paid": 2500,
+            "amount_remaining": 0,
+            "amount_shipping": 0,
+            "application": null,
+            "attempt_count": 1,
+            "attempted": true,
+            "auto_advance": false,
+            "automatic_tax": {
+                "disabled_reason": null,
+                "enabled": false,
+                "liability": null,
+                "provider": null,
+                "status": null
+            },
+            "automatically_finalizes_at": null,
+            "billing_reason": "subscription_create",
+            "collection_method": "charge_automatically",
+            "created": 1750330125,
+            "currency": "usd",
+            "custom_fields": null,
+            "customer": "cus_SWffOeuPwseQmv",
+            "customer_address": null,
+            "customer_email": "ammarkhalidwarraich@gmail.com",
+            "customer_name": "Ammar Khalid",
+            "customer_phone": null,
+            "customer_shipping": null,
+            "customer_tax_exempt": "none",
+            "customer_tax_ids": [],
+            "default_payment_method": null,
+            "default_source": null,
+            "default_tax_rates": [],
+            "description": null,
+            "discounts": [],
+            "due_date": null,
+            "effective_at": 1750330125,
+            "ending_balance": 0,
+            "footer": null,
+            "from_invoice": null,
+            "hosted_invoice_url": "https://invoice.stripe.com/i/acct_1RHpCa2N3oSWUe5U/test_YWNjdF8xUkhwQ2EyTjNvU1dVZTVVLF9TV2pVUVhQUVQ1ekg3dkNuWktlTFZBY3NNZ1FqOEhTLDE0MDg3MzQxOQ0200DXX7E1aN?s=ap",
+            "invoice_pdf": "https://pay.stripe.com/invoice/acct_1RHpCa2N3oSWUe5U/test_YWNjdF8xUkhwQ2EyTjNvU1dVZTVVLF9TV2pVUVhQUVQ1ekg3dkNuWktlTFZBY3NNZ1FqOEhTLDE0MDg3MzQxOQ0200DXX7E1aN/pdf?s=ap",
+            "issuer": {
+                "type": "self"
+            },
+            "last_finalization_error": null,
+            "latest_revision": null,
+            "lines": {
+                "object": "list",
+                "data": [
+                    {
+                        "id": "il_1Rbg1R2N3oSWUe5UCI5lszWJ",
+                        "object": "line_item",
+                        "amount": 2500,
+                        "currency": "usd",
+                        "description": "1 × Personal Account Membership (at $25.00 / month)",
+                        "discount_amounts": [],
+                        "discountable": true,
+                        "discounts": [],
+                        "invoice": "in_1Rbg1R2N3oSWUe5UkPEDSLd9",
+                        "livemode": false,
+                        "metadata": {},
+                        "parent": {
+                            "invoice_item_details": null,
+                            "subscription_item_details": {
+                                "invoice_item": null,
+                                "proration": false,
+                                "proration_details": {
+                                    "credited_items": null
+                                },
+                                "subscription": "sub_1Rbg1R2N3oSWUe5USGxdNsBd",
+                                "subscription_item": "si_SWjUUIuERhCDmn"
+                            },
+                            "type": "subscription_item_details"
+                        },
+                        "period": {
+                            "end": 1752922125,
+                            "start": 1750330125
+                        },
+                        "pretax_credit_amounts": [],
+                        "pricing": {
+                            "price_details": {
+                                "price": "price_1RaYDB2N3oSWUe5UehFf9ReW",
+                                "product": "prod_SVZLiaXkNkqBk8"
+                            },
+                            "type": "price_details",
+                            "unit_amount_decimal": "2500"
+                        },
+                        "quantity": 1,
+                        "taxes": []
+                    }
+                ],
+                "has_more": false,
+                "total_count": 1,
+                "url": "/v1/invoices/in_1Rbg1R2N3oSWUe5UkPEDSLd9/lines"
+            },
+            "livemode": false,
+            "metadata": {},
+            "next_payment_attempt": null,
+            "number": "AE53S2GB-0001",
+            "on_behalf_of": null,
+            "parent": {
+                "quote_details": null,
+                "subscription_details": {
+                    "metadata": {},
+                    "subscription": "sub_1Rbg1R2N3oSWUe5USGxdNsBd"
+                },
+                "type": "subscription_details"
+            },
+            "payment_settings": {
+                "default_mandate": null,
+                "payment_method_options": null,
+                "payment_method_types": null
+            },
+            "period_end": 1750330125,
+            "period_start": 1750330125,
+            "post_payment_credit_notes_amount": 0,
+            "pre_payment_credit_notes_amount": 0,
+            "receipt_number": null,
+            "rendering": null,
+            "shipping_cost": null,
+            "shipping_details": null,
+            "starting_balance": 0,
+            "statement_descriptor": null,
+            "status": "paid",
+            "status_transitions": {
+                "finalized_at": 1750330125,
+                "marked_uncollectible_at": null,
+                "paid_at": 1750330125,
+                "voided_at": null
+            },
+            "subtotal": 2500,
+            "subtotal_excluding_tax": 2500,
+            "test_clock": null,
+            "total": 2500,
+            "total_discount_amounts": [],
+            "total_excluding_tax": 2500,
+            "total_pretax_credit_amounts": [],
+            "total_taxes": [],
+            "webhooks_delivered_at": 1750330125
+        }
+    ],
+    "has_more": false,
+    "url": "/v1/invoices"
+}
